@@ -1,0 +1,40 @@
+.header {
+    height: 120px;
+    background-color: orange;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav-item {
+    margin: 0px 8px;
+    position: relative;
+}
+
+.header__nav-item, .header__nav-link {
+    display: inline-block;
+    font-size: 1.5rem;
+    color: var(--white-color);
+    font-weight: 100;
+}
+
+.header__nav-item--bold {
+    font-weight: 600;
+}
+
+.header__nav-item--separate::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 1px;
+    height: 16px;
+    background-color: #ccc;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+

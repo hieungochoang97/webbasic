@@ -23,3 +23,9 @@ ul {
     --white-color: #fff;
     --text-color: #333;
 }
+
+.grid {
+    width: 1200px;
+    margin: 0px auto;
+    max-width: 100%;
+}
