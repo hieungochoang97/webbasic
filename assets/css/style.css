@@ -6,6 +6,7 @@
 .header__nav {
     display: flex;
     justify-content: space-between;
+    padding-top: 4px;
 }
 
 .header__nav-item {
@@ -18,6 +19,10 @@
     font-size: 1.5rem;
     color: var(--white-color);
     font-weight: 100;
+}
+
+.header__nav-item:hover, .header__nav-link:hover {
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .header__nav-item--bold {
@@ -34,6 +39,11 @@
     right: -10px;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.header__nav-icon {
+    color: var(--white-color);
+    padding-left: 4px;
 }
 
 
