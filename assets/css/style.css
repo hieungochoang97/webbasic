@@ -185,3 +185,79 @@
     color: var(--text-color);
     background-color: var(--primary-color);
 }
+
+/* Auth-form */
+
+.auth-form {
+    padding: 0 20px;
+}
+
+.auth-form__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    color: var(--primary-color);
+}
+
+.auth-form--heading {
+    font-size: 2rem;
+}
+
+.auth-form--switch-btn {
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+}
+
+.auth-form__form {
+   
+}
+
+.auth-form__input {
+    width: 100%;
+    padding: 12px 0;
+    margin: 10px 0;
+    outline: none;
+    font-size: 1.6rem;
+    border: 1px solid #E8E8E8;
+    color: var(--text-color);
+    text-indent: 10px;
+}
+
+.register {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.register__description {
+    padding: 20px 0;
+    line-height: 1.8rem;
+}
+
+.register__link {
+    color: var(--primary-color);
+}
+
+.register__next {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    color: var(--text-color);
+    font-size: 1.6rem;
+    padding: 12px 24px;
+    border-radius: 2px;
+    background-color: #E8E8E8;
+    transition: 0.3s;
+    margin-top: 12px;
+    right: 0px;
+}
+
+.btn--active {
+    background-color: var(--primary-color);
+}
+
+.btn:hover, .btn--active:hover {
+    color: var(--white-color);
+}
