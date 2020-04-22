@@ -105,9 +105,19 @@
     top: 120%;
     border-radius: 3px;
     border: 1px solid #E8E8E8;
+    margin-top: 10px;
     display: none;
     transform-origin: calc(100% - 20px) top;
     animation: headerNotifyGrowth ease-in 0.2s;
+}
+
+.header__notify::before {
+    content: "";
+    position: absolute;
+    border: 10px solid;
+    border-color: transparent transparent var(--white-color) transparent;
+    right: 22px;
+    top: -20px;
 }
 
 .header__notify::after {
