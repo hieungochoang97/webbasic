@@ -621,3 +621,37 @@
 .select-input__label-sub-item:hover {
     color: var(--primary-color);
 }
+
+.home-filter__paginate {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.home-filter__num {
+    font-size: 1.4rem;
+}
+
+.home-filter__num:nth-child(1) {
+    color: var(--primary-color);
+}
+
+.home-filter__next {
+    margin-left: 14px;
+}
+
+.home-filter__next-page {
+    font-size: 2.2rem;
+}
+
+.home-filter__next-page {
+    padding: 6px 12px;
+    background-color: red;
+    color: #999;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.home-filter__next-page:nth-child(1) {
+    background-color: #DDD;
+}
