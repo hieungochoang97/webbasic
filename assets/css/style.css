@@ -496,3 +496,128 @@
     margin-left: 6px;
     font-size: 1rem;
 }
+
+/* Category */
+
+.container {
+    margin-top: 20px;
+}
+
+
+.category__heading {
+    font-size: 1.8rem;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    font-weight: 400;
+}
+
+.category-list {
+    margin-left: 10px;
+}
+
+.active {
+    color: var(--primary-color);
+}
+
+.category-item {
+    font-size: 1.4rem;
+    padding: 10px 0;
+    position: relative;
+}
+
+.category-item__link {
+    color: var(--text-color);
+    transition: 0.3s;
+}
+
+.category-item__link:hover {
+    color: var(--primary-color);
+    padding-left: 6px;
+}
+
+.active {
+    color: var(--primary-color);
+}
+
+.active::before {
+    position: absolute;
+    content: "";
+}
+
+.category-item__link--active {
+    position: absolute;
+    border: 7px solid;
+    border-color: transparent transparent transparent var(--primary-color);
+    margin-left: -10px;
+    top: 13px;
+}
+
+/* Home filter */
+
+.home {
+    background-color: #EEEEEE;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.home-filter {
+    font-size: 1.4rem;
+    padding-right: 10px;
+}
+
+.btn {
+    margin: 0 4px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    font-size: 1.2rem;
+}
+
+.btn:hover {
+    background-color: var(--primary-color);
+}
+
+.btn--active {
+    background-color: var(--primary-color);
+}
+
+.select-input {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 10px;
+    background-color: white;
+    border-radius: 3px;
+    margin-left: 3px;
+}
+
+.select-input__label {
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.select-input:hover .select-input__label-sub {
+    display: block;
+    border-top: 1px solid #ccc;
+}
+
+.select-input__label-sub {
+    position: absolute;
+    width: 200px;
+    left: -10px;
+    background-color: white;
+    display: none;
+    margin-top: 12px;
+}
+
+.select-input__label-sub-item {
+    padding: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.select-input__label-sub-item:hover {
+    color: var(--primary-color);
+}
