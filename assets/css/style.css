@@ -309,6 +309,7 @@
     display: block;
     animation: headerNotifyGrowth ease-in 0.3s;
     transform-origin: top right 20px;
+    z-index: 2;
 }
 
 .cart-number {
