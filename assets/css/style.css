@@ -762,3 +762,24 @@
     font-size: 1.4rem;
     padding-bottom: 5px;
 }
+
+/* Panigation */ 
+
+.panigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.panigation-item-link {
+    font-size: 2rem;
+    padding: 5px 15px;
+    color: var(--text-color);
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.panigation-item-link--active {
+    background-color: var(--primary-color);
+}
