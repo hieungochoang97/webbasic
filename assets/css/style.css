@@ -792,3 +792,52 @@
 .panigation-item-link--active {
     background-color: var(--primary-color);
 }
+
+/* Footer */
+
+.footer {
+    border-top: 4px solid var(--primary-color);
+    padding: 20px 0;
+}
+
+.footer__heading {
+    font-size: 1.2rem;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.footer__list {
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.footer__item {
+    padding: 10px 0;
+}
+
+.footer__link {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    transition: 0.3s;
+}
+
+.footer__link:hover {
+    color: var(--primary-color);
+}
+
+.footer__icon {
+    padding: 0 5px 0 0;
+}
+
+.footer__qr {
+    width: 100%;
+}
+
+.footer__download {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12px;
+    margin-bottom: 20px;
+}
